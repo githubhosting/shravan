@@ -34,7 +34,7 @@ export function Newsletter() {
             </div>
             <form>
               <h3 className="text-lg font-semibold tracking-tight text-blue-900">
-                Sign up to our newsletter <span aria-hidden="true">↓</span>
+                Gift Details <span aria-hidden="true">↓</span>
               </h3>
               <div className="mt-5 flex rounded-3xl bg-white py-2.5 pr-2.5 shadow-xl shadow-blue-900/5 focus-within:ring-2 focus-within:ring-blue-900">
                 <input
@@ -43,7 +43,7 @@ export function Newsletter() {
                   className="-my-2.5 flex-auto bg-transparent pl-6 pr-2.5 text-base text-slate-900 placeholder:text-slate-400 focus:outline-none"
                 />
                 <Button type="submit">
-                  <span className="sr-only sm:not-sr-only">Sign up today</span>
+                  <span className="sr-only sm:not-sr-only">Name</span>
                   <svg
                     aria-hidden="true"
                     className="h-6 w-6 sm:hidden"

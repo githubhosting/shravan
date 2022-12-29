@@ -20,9 +20,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Shravan
-        </title>
+        <title>Shravan</title>
         <meta
           name="description"
           content="A book and video course that teaches you how to design your own icons from scratch. "
@@ -32,7 +30,7 @@ export default function Home() {
       <Introduction />
       {/* <NavBar /> */}
       {/* <TableOfContents /> */}
-      <Testimonial
+      {/* <Testimonial
         id="tommy-stroman-testimonial-1"
         author={{
           name: 'Tommy Stroman',
@@ -41,10 +39,8 @@ export default function Home() {
         }}
       >
         <p>
-          “I didn’t know a thing about icon design until I read this book. Now I
-          can create any icon I need in no time. Great resource!”
         </p>
-      </Testimonial>
+      </Testimonial> */}
       {/* <Screencasts />
       <Testimonial
         id="gerardo-stark-testimonial-2"
@@ -64,7 +60,7 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <Author /> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
     </>
   )
