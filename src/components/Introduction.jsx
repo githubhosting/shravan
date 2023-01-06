@@ -1,56 +1,5 @@
 import { Container } from '@/components/Container'
 
-const ppl = [
-  {
-    name: '38',
-    link: 'https://docs.google.com/document/d/1xoT3IsMHKZcqvk-mi1gGR9rqR13Y_VV-dTkkMeJLsGQ/edit?usp=sharing',
-  },
-  {
-    name: '25',
-    link: 'https://docs.google.com/document/d/1pG5BZuzCOsU0u-59JqLdqRZIqofC1OsMGnoMBp4uhLc/edit?usp=sharing',
-  },
-  {
-    name: '141',
-    link: 'https://docs.google.com/document/d/1G1J_7qcwVlHqpIXWkRtsmVzkbzRDmhNElIxYVPRXTcg/edit?usp=sharing',
-  },
-  {
-    name: '149',
-    link: 'https://docs.google.com/document/d/1yyHnE1D74mnSq8p8Cvl-tCszot9LrxiRuZKjwJWl_bA/edit?usp=sharing',
-  },
-  {
-    name: '125',
-    link: 'https://docs.google.com/document/d/18dbDapgw6f25u9Pe9ltKFbYFolg9_AE-o84EUIsNoRE/edit?usp=sharing',
-  },
-  {
-    name: '198',
-    link: 'https://docs.google.com/document/d/1pCJqoRT_qEMdJSTLX6IXH2eaiqnycaDEXePDp_h7mFM/edit?usp=sharing',
-  },
-  {
-    name: '19',
-    link: 'https://docs.google.com/document/d/1UxptwBdkmFbhVoNdS6lPo1Z8b_v7khEdpcC84MV28r4/edit?usp=sharing',
-  },
-  {
-    name: '71',
-    link: '',
-  },
-  {
-    name: '1921',
-    link: 'https://docs.google.com/document/d/1dsNjtcUk1BD2Q7W-rIvea82Yh-p9nUgedCq3y64KI_g/edit?usp=sharing',
-  },
-  {
-    name: '12',
-    link: '',
-  },
-  {
-    name: '161',
-    link: '',
-  },
-  {
-    name: '168',
-    link: '',
-  },
-]
-
 export function Introduction() {
   return (
     <section
@@ -94,27 +43,6 @@ export function Introduction() {
           differential equations in our sleep, successfully pulling all-nighters
           and sufficient attendance etc. Let's make it a great year!
         </p>
-        {ppl.map((person) => (
-          <p className="mt-10">
-            <a
-              href={person.link}
-              className="text-base font-medium tracking-tight text-blue-600 hover:text-blue-800"
-            >
-              {person.name} &rarr;
-            </a>
-          </p>
-        ))}
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfd9fw1mHuzNmx5tUBwGQPYQmYbcCD2se05X-TBIs2_tr-CNQ/viewform?embedded=true"
-          // width="640"
-          height="1024"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          className="mt-10 w-full"
-        >
-          Loading…
-        </iframe>
       </Container>
     </section>
   )

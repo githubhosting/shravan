@@ -15,19 +15,23 @@ import { Testimonials } from '@/components/Testimonials'
 import avatarImage1 from '@/images/avatars/avatar-1.png'
 import avatarImage2 from '@/images/avatars/avatar-2.png'
 import { Newsletter } from '@/components/Newsletter'
+import { Heroimage } from '@/components/Heroimage'
+import { Navigation } from '@/components/Navigation'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Shravan</title>
+        <title>Shri Shantaveri Gopala Gowda</title>
         <meta
           name="description"
-          content="A book and video course that teaches you how to design your own icons from scratch. "
+          content="A socialist politician who was thrice elected to Karnataka Vidhanasabha, the Legislative Assembly of Karnataka, in 1952, 1962 and 1967 "
         />
       </Head>
+      <Navigation />
       {/* <Hero /> */}
-      <Introduction />
+      <Heroimage />
+      {/* <Introduction /> */}
       {/* <NavBar /> */}
       {/* <TableOfContents /> */}
       {/* <Testimonial
