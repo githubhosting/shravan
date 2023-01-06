@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Shravan app",
-    "short_name": "Shravan App",
-    "description": "This is just for testing",
+    "name": "Shravan",
+    "short_name": "Shravan",
+    "description": "This is testing",
     "icons": [
         {
             "src": "/icon-192x192.png",
